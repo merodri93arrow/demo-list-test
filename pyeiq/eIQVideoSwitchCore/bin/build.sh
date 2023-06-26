@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ -o /home/root/.cache/eiq/eIQVideoSwitchCore/bin/video_switch_core /home/root/.cache/eiq/eIQVideoSwitchCore/bin/mobilenet_ssd-v3.cpp -ltensorflow-lite -lpthread -lrt -ldl -g -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -lopencv_core -lopencv_videoio -lopencv_imgcodecs -I /usr/include/tensorflow/lite/tools/make/downloads/flatbuffers/include/ -I /usr/include/tensorflow/lite/tools/make/downloads/absl/ -lstdc++ -lrt -lm -lpthread

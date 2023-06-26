@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ -o /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/video_switch_core /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/mobilenet_ssd-v3_vx.cpp /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/default_execution_provider.cc /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/delegate_provider.cc /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/command_line_flags.cc /home/root/.cache/eiq/eIQVideoSwitchCore2/bin/external_delegate_provider.cc -ltensorflow-lite -lrt -ldl -lg2d -g -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -lopencv_core -lopencv_videoio -lopencv_imgcodecs
