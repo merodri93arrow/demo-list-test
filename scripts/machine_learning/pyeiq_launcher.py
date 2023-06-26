@@ -33,7 +33,7 @@ except ImportError:
     PYEIQ = False
 
 
-def check_connection(host="208.67.220.220", port=53, timeout=5):
+def check_connection(host="172.217.168.206", port=80, timeout=5):
     """Check if there is an internet connection."""
     time.sleep(1)
     try:
